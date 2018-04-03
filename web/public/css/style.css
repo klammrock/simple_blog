@@ -1,0 +1,17 @@
+body {
+    padding-top: 55px;
+    /*background-color: #e5edf8;*/
+    background-color: #d9dde6;
+    color: white;
+    font-size: 15pt;
+}
+
+#main-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.panel-body {
+    background-color: #323b58;
+    color: #c9c8d6;    
+}
