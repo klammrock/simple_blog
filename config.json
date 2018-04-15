@@ -1,0 +1,18 @@
+{
+    "config": "DEV",
+    "service_port": 9977,
+    "db": {
+        "host": "localhost",
+        "port": 27017,
+        "db_name": "simple_blog",
+        "collection": "posts",
+        "log_collection": "logs"
+    },
+    "admin": {
+        "password": "1",
+        "jwt": {
+            "secret": "secret_jwt",
+            "expires_in": 900
+        }
+    }
+}

@@ -27,6 +27,16 @@ import (
 // [url]/admin/posts
 // [url]/admin/logs
 
+type AdminConfig struct {
+	Password string    `json:"password"`
+	Jwt      jwtConfig `json:"jwt"`
+}
+
+type jwtConfig struct {
+	Secret    string `json:"secret"`
+	ExpiresIn int    `json:"expires_in"`
+}
+
 func Do_work() {
 	fmt.Println("hello blog")
 }
